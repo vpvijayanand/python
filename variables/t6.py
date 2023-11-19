@@ -6,3 +6,11 @@ GRAVITY = 9.8
 #You can delete variables using the del statement.
 x = 5
 del x  # x is now deleted
+#Unpacking
+#Python allows the unpacking of a collection (like a list or tuple) into variables.
+x, y, z = [1, 2, 3]
+#Type Conversion
+#You can convert between different data types by using type conversion functions like int(), float(), str(), etc.
+x = "123"
+y = int(x)  # y is now an integer 123
+
