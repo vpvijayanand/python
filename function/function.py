@@ -8,5 +8,5 @@ def greet(name):
     return f"Hello, {name}!"
 
 # Call the function
-print(greet("Alice"))
-print(greet("Bob"))
+print(greet("Vijay"))
+print(greet("Anand"))
