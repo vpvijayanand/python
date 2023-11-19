@@ -1,0 +1,11 @@
+3. Data Types
+Python variables can hold different types of data:
+
+Integers: Whole numbers, e.g., 5, 100, -3.
+Floats: Numbers with a decimal point, e.g., 3.14, -0.001.
+Strings: Text, e.g., "Hello", 'World'.
+Booleans: True or False.
+Lists: Ordered, mutable collections, e.g., [1, 2, 3].
+Tuples: Ordered, immutable collections, e.g., (1, 2, 3).
+Dictionaries: Key-value pairs, e.g., {'name': 'Alice', 'age': 25}.
+Sets: Unordered collections of unique elements, e.g., {1, 2, 3}.
