@@ -1,14 +1,18 @@
 # for loop
+"""
 print("\nFor Loop:")
 for i in range(5):
-    print(i, end=" ")
+    print(i, end=",")
 
 #Increasing Values
 for i in range(1, 11):
     print(i)
+
+
 #Decreasing Values
 for i in range(10, 0, -1):
     print(i)
+
 #Odd Numbers
 for i in range(1, 11):
     if i % 2 != 0:
@@ -24,6 +28,7 @@ for i in range(1, 21, 3):
 # Iterating Over a String
 for char in "Hello":
     print(char)
+
 #Iterating Over a List
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
@@ -43,7 +48,7 @@ for i in range(1, 4):  # Outer loop
 fruits = ["apple", "banana", "cherry"]
 for index, fruit in enumerate(fruits):
     print(f"Index: {index}, Fruit: {fruit}")
-
+"""
 #Looping Over Two Lists Using zip()
 list1 = [1, 2, 3]
 list2 = ['a', 'b', 'c']
