@@ -14,7 +14,7 @@ def read_csv(file_path):
 @app.route('/', methods=['GET', 'POST'])
 def index():
     search_query = request.form.get('search')
-    data = read_csv('countries.csv')
+    data = read_csv('country.csv')
     if search_query:
         data = [row for row in data if row['country'].lower() == search_query.lower()]
     return render_template('index.html', data=data)
