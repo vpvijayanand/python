@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countries Information</title>
+</head>
+<body>
+    <form method="POST">
+        <input type="text" name="search" placeholder="Enter country name">
+        <input type="submit" value="Search">
+    </form>
+
+    <table border="1">
+        <tr>
+            <th>Country</th>
+            <th>Capital</th>
+            <th>Population</th>
+        </tr>
+        {% for row in data %}
+        <tr>
+            <td>{{ row['country'] }}</td>
+            <td>{{ row['capital'] }}</td>
+            <td>{{ row['population'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
